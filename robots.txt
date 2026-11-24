@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-Sitemap: https://dodosea1.github.io/tamna-site/sitemap.xml

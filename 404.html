@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>ORN Studio · 주소가 바뀌었어요</title>
+<script>
+var p = location.pathname;
+var to = "https://ornstudio.github.io/";
+if (p.indexOf("/tamna-site/") === 0) to = "https://ornstudio.github.io/" + p.slice("/tamna-site/".length);
+location.replace(to + location.search + location.hash);
+</script>
+</head>
+<body><p>ORN Studio 사이트 주소가 바뀌었어요. <a href="https://ornstudio.github.io/">https://ornstudio.github.io/</a></p></body>
+</html>
